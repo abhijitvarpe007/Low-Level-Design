@@ -1,8 +1,8 @@
 package StrategyDesignPatter;
 
-import StrategyDesignPatter.Computer.AppleMacBook;
-import StrategyDesignPatter.Computer.ChromeBook;
-import StrategyDesignPatter.Computer.HpPavillion;
+import StrategyDesignPatter.Computer.Imp.AppleMacBook;
+import StrategyDesignPatter.Computer.Imp.ChromeBook;
+import StrategyDesignPatter.Computer.Imp.HpPavillion;
 
 public class Runner {
 

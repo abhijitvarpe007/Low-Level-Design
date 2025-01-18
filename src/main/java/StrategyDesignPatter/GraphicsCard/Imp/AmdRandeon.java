@@ -1,4 +1,6 @@
-package StrategyDesignPatter.GraphicsCard;
+package StrategyDesignPatter.GraphicsCard.Imp;
+
+import StrategyDesignPatter.GraphicsCard.GraphicsCard;
 
 public class AmdRandeon implements GraphicsCard {
     @Override

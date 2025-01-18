@@ -1,4 +1,6 @@
-package StrategyDesignPatter.Chipset;
+package StrategyDesignPatter.Chipset.Imp;
+
+import StrategyDesignPatter.Chipset.Chipset;
 
 public class IntelChipset implements Chipset {
 

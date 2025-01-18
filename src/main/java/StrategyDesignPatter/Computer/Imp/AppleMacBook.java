@@ -1,7 +1,8 @@
-package StrategyDesignPatter.Computer;
+package StrategyDesignPatter.Computer.Imp;
 
-import StrategyDesignPatter.Chipset.AppleM1Chipset;
-import StrategyDesignPatter.GraphicsCard.NvidiaGeForce;
+import StrategyDesignPatter.Chipset.Imp.AppleM1Chipset;
+import StrategyDesignPatter.Computer.Computer;
+import StrategyDesignPatter.GraphicsCard.Imp.NvidiaGeForce;
 
 public class AppleMacBook extends Computer {
 

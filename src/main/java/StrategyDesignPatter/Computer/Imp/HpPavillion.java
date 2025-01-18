@@ -1,7 +1,8 @@
-package StrategyDesignPatter.Computer;
+package StrategyDesignPatter.Computer.Imp;
 
-import StrategyDesignPatter.Chipset.IntelChipset;
-import StrategyDesignPatter.GraphicsCard.NvidiaGeForce;
+import StrategyDesignPatter.Chipset.Imp.IntelChipset;
+import StrategyDesignPatter.Computer.Computer;
+import StrategyDesignPatter.GraphicsCard.Imp.NvidiaGeForce;
 
 public class HpPavillion extends Computer {
 
