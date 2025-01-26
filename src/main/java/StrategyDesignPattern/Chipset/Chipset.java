@@ -1,4 +1,4 @@
-package StrategyDesignPatter.Chipset;
+package StrategyDesignPattern.Chipset;
 
 public interface Chipset {
 

@@ -1,8 +1,8 @@
-package StrategyDesignPatter.Computer.Imp;
+package StrategyDesignPattern.Computer.Imp;
 
-import StrategyDesignPatter.Chipset.Imp.IntelChipset;
-import StrategyDesignPatter.Computer.Computer;
-import StrategyDesignPatter.GraphicsCard.Imp.AmdRandeon;
+import StrategyDesignPattern.Chipset.Imp.IntelChipset;
+import StrategyDesignPattern.Computer.Computer;
+import StrategyDesignPattern.GraphicsCard.Imp.AmdRandeon;
 
 public class ChromeBook extends Computer {
     public ChromeBook() {

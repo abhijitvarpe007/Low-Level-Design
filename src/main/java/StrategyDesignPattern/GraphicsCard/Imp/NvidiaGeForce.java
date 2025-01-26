@@ -1,6 +1,6 @@
-package StrategyDesignPatter.GraphicsCard.Imp;
+package StrategyDesignPattern.GraphicsCard.Imp;
 
-import StrategyDesignPatter.GraphicsCard.GraphicsCard;
+import StrategyDesignPattern.GraphicsCard.GraphicsCard;
 
 public class NvidiaGeForce implements GraphicsCard {
     @Override

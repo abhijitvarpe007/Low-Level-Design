@@ -1,7 +1,7 @@
-package StrategyDesignPatter.Computer;
+package StrategyDesignPattern.Computer;
 
-import StrategyDesignPatter.Chipset.Chipset;
-import StrategyDesignPatter.GraphicsCard.GraphicsCard;
+import StrategyDesignPattern.Chipset.Chipset;
+import StrategyDesignPattern.GraphicsCard.GraphicsCard;
 
 public abstract class Computer {
     private GraphicsCard graphicsCard;
