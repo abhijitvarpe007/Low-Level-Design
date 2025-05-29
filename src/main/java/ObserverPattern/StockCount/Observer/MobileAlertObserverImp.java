@@ -1,6 +1,6 @@
-package ObserverPattern.Observer;
+package ObserverPattern.StockCount.Observable.Observer;
 
-import ObserverPattern.Observable.StockObservable;
+import ObserverPattern.StockCount.Observable.Observable.StockObservable;
 
 public class MobileAlertObserverImp implements NotificationAlertObserver{
 

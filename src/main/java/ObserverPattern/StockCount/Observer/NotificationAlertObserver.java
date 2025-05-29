@@ -1,4 +1,4 @@
-package ObserverPattern.Observer;
+package ObserverPattern.StockCount.Observer;
 
 public interface NotificationAlertObserver {
 

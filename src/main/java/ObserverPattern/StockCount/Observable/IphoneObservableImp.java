@@ -1,11 +1,11 @@
-package ObserverPattern.Observable;
+package ObserverPattern.StockCount.Observable.Observable;
 
-import ObserverPattern.Observer.NotificationAlertObserver;
+import ObserverPattern.StockCount.Observable.Observer.NotificationAlertObserver;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IphoneObservableImp implements StockObservable{
+public class IphoneObservableImp implements StockObservable {
 
     public List<NotificationAlertObserver> observerList = new ArrayList<>();
     public int stockCount = 0;

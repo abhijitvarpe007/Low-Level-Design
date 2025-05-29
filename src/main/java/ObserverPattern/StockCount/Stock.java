@@ -1,9 +1,9 @@
 package ObserverPattern;
 
-import ObserverPattern.Observable.IphoneObservableImp;
-import ObserverPattern.Observable.StockObservable;
-import ObserverPattern.Observer.EmailAlertObserverImpl;
-import ObserverPattern.Observer.MobileAlertObserverImp;
+import ObserverPattern.StockCount.Observable.IphoneObservableImp;
+import ObserverPattern.StockCount.Observable.StockObservable;
+import ObserverPattern.StockCount.Observer.EmailAlertObserverImpl;
+import ObserverPattern.StockCount.Observer.MobileAlertObserverImp;
 
 public class Stock {
 
