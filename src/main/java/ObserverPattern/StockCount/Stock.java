@@ -1,4 +1,4 @@
-package ObserverPattern;
+package ObserverPattern.StockCount;
 
 import ObserverPattern.StockCount.Observable.IphoneObservableImp;
 import ObserverPattern.StockCount.Observable.StockObservable;

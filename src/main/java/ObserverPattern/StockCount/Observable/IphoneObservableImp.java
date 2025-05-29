@@ -1,6 +1,6 @@
-package ObserverPattern.StockCount.Observable.Observable;
+package ObserverPattern.StockCount.Observable;
 
-import ObserverPattern.StockCount.Observable.Observer.NotificationAlertObserver;
+import ObserverPattern.StockCount.Observer.NotificationAlertObserver;
 
 import java.util.ArrayList;
 import java.util.List;
