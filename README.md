@@ -63,3 +63,35 @@ Suppose you want to implement a logging framework where log messages of differen
 
 - [Design Patterns: Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/63a42c972aea6190dac9bf8cf02a1e1fedd459a3/src/main/java/ChainResponsibilityDesignPattern)
+
+# Decorator Design Pattern: Pizza Customization Example
+
+This module demonstrates the **Decorator** design pattern, a structural pattern frequently discussed in interviews. The pattern allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class.
+
+## Interview-Relevant Concepts
+
+- **Open/Closed Principle:** Classes are open for extension but closed for modification.
+- **Flexible composition:** Functionality can be combined at runtime by wrapping objects.
+- **Single-responsibility principle:** Each decorator adds a specific feature.
+
+## Use Case: Pizza Customization System
+
+Suppose you want to implement a pizza ordering system where customers can add various toppings (e.g., cheese, mushrooms) to their pizza. The Decorator pattern allows you to add new toppings without changing the core pizza classes.
+
+## Common Interview Questions
+
+- **What is the Decorator pattern?**
+  - It allows you to add new functionality to objects dynamically by placing them inside special wrapper objects (decorators).
+
+- **What are the advantages?**
+  - Promotes code reuse, supports flexible and dynamic feature addition, and avoids class explosion from many subclasses.
+
+- **How would you add a new topping (e.g., Olives)?**
+  - Implement a new decorator (e.g., `Olives`) extending the base decorator and wrap it around the pizza object.
+
+---
+
+## References
+
+- [Design Patterns: Decorator](https://refactoring.guru/design-patterns/decorator)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/DecoratorDesignPattern)
