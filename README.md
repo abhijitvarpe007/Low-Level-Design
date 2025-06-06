@@ -95,3 +95,35 @@ Suppose you want to implement a pizza ordering system where customers can add va
 
 - [Design Patterns: Decorator](https://refactoring.guru/design-patterns/decorator)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/DecoratorDesignPattern)
+
+# Factory Design Pattern: Shape Creation Example
+
+This module demonstrates the **Factory** design pattern, a creational pattern frequently discussed in interviews. The pattern provides an interface for creating objects, allowing subclasses to decide which class to instantiate.
+
+## Interview-Relevant Concepts
+
+- **Encapsulation of object creation:** Centralizes and abstracts the instantiation logic.
+- **Loose coupling:** Client code depends on interfaces, not concrete classes.
+- **Open/Closed Principle:** New product types can be added with minimal changes.
+
+## Use Case: Shape Creation System
+
+Suppose you want to create different shapes (e.g., Square, Rectangle) based on user input. The Factory pattern lets you encapsulate the creation logic and return the appropriate shape object.
+
+## Common Interview Questions
+
+- **What is the Factory pattern?**
+  - It defines an interface for creating objects but lets subclasses decide which class to instantiate.
+
+- **What are the advantages?**
+  - Promotes loose coupling, centralizes object creation, and makes code easier to extend.
+
+- **How would you add a new shape (e.g., Circle)?**
+  - Implement the `Shape` interface and update the factory to handle the new type.
+
+---
+
+## References
+
+- [Design Patterns: Factory](https://refactoring.guru/design-patterns/factory-method)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/FactoryDesignPattern)
