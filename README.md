@@ -159,3 +159,35 @@ Suppose you want to create different shapes (e.g., Square, Rectangle) based on u
 
 - [Design Patterns: Factory](https://refactoring.guru/design-patterns/factory-method)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/FactoryDesignPattern)
+
+# Null Object Design Pattern: Vehicle Example
+
+This module demonstrates the **Null Object** design pattern, a behavioral pattern often discussed in interviews. The pattern provides an object as a surrogate for the lack of an object, implementing default or "do nothing" behavior to avoid null checks.
+
+## Interview-Relevant Concepts
+
+- **Avoids null checks:** Client code can use the Null Object without worrying about `null` references.
+- **Polymorphism:** The Null Object implements the same interface as real objects.
+- **Default behavior:** Encapsulates the absence of an object with safe default actions.
+
+## Use Case: Vehicle System
+
+Suppose you want to fetch a vehicle object (e.g., Car, Bike) based on user input. If the requested vehicle does not exist, the Null Object pattern lets you return a default object with safe values, avoiding `NullPointerException` and extra null checks.
+
+## Common Interview Questions
+
+- **What is the Null Object pattern?**
+  - It provides a non-functional object in place of a `null` reference, implementing default behavior.
+
+- **What are the advantages?**
+  - Eliminates the need for null checks, prevents runtime errors, and simplifies client code.
+
+- **How would you add a new vehicle type (e.g., Truck)?**
+  - Implement the `Vehicle` interface for Truck and update the factory to handle the new type.
+
+---
+
+## References
+
+- [Design Patterns: Null Object](https://refactoring.guru/design-patterns/null-object)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/NullObjectPattern)
