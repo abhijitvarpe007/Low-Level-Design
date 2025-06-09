@@ -1,5 +1,37 @@
 # Low-Level-Design
 
+# Strategy Design Pattern: Computer System Example
+
+This module demonstrates the **Strategy** design pattern, a behavioral pattern frequently discussed in interviews. The pattern enables selecting an algorithm's behavior at runtime by encapsulating each algorithm in a separate class and making them interchangeable.
+
+## Interview-Relevant Concepts
+
+- **Encapsulation of algorithms:** Each strategy is implemented in its own class.
+- **Interchangeability:** Strategies can be swapped at runtime without modifying the context.
+- **Open/Closed Principle:** New strategies can be added without changing existing code.
+
+## Use Case: Computer System
+
+Suppose you want to implement different power management behaviors (e.g., for different computer models like HP, Apple, Chromebook). The Strategy pattern lets you encapsulate each power management algorithm and switch between them dynamically.
+
+## Common Interview Questions
+
+- **What is the Strategy pattern?**
+  - It defines a family of algorithms, encapsulates each one, and makes them interchangeable. The client can choose which algorithm to use at runtime.
+
+- **What are the advantages?**
+  - Promotes code reuse, supports dynamic algorithm selection, and avoids conditional statements for algorithm selection.
+
+- **How would you add a new computer type (e.g., Dell)?**
+  - Implement a new strategy class for Dell and integrate it with the context.
+
+---
+
+## References
+
+- [Design Patterns: Strategy](https://refactoring.guru/design-patterns/strategy)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/StrategyDesignPattern)
+
 # Observer Design Pattern: Real-Time Notification Example
 
 This module demonstrates the **Observer** design pattern, a fundamental behavioral pattern frequently discussed in interviews. The pattern defines a one-to-many relationship between objects so that when one object (the Subject) changes state, all its dependents (Observers) are notified and updated automatically.
