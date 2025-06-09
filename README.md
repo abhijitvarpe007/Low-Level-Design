@@ -191,3 +191,39 @@ Suppose you want to fetch a vehicle object (e.g., Car, Bike) based on user input
 
 - [Design Patterns: Null Object](https://refactoring.guru/design-patterns/null-object)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/NullObjectPattern)
+
+# Adapter Design Pattern: Bird and Duck Example
+
+This module demonstrates the **Adapter** design pattern, a structural pattern frequently discussed in interviews. The pattern allows incompatible interfaces to work together by providing a wrapper that translates one interface into another.
+
+## Interview-Relevant Concepts
+
+- **Interface compatibility:** Enables classes with incompatible interfaces to collaborate.
+- **Wrapper/Adapter class:** Implements the expected interface and delegates calls to the adaptee.
+- **Single Responsibility Principle:** Keeps conversion logic separate from business logic.
+
+## Use Case: Bird and Duck System
+
+Suppose you have a system where `Bird` objects are expected, but you want to use a `Duck` object. The Adapter pattern lets you wrap a `Duck` in a `DuckAdapter` so it can be used wherever a `Bird` is required.
+
+## Real-World Example
+
+A common real-world example is using different types of power plugs and sockets. For instance, if you have a European plug but only an American socket, you use a plug adapter to connect them. The adapter converts the interface of the European plug to match the American socket, allowing compatibility without modifying either.
+
+## Common Interview Questions
+
+- **What is the Adapter pattern?**
+  - It allows objects with incompatible interfaces to work together by wrapping the incompatible object with an adapter that implements the expected interface.
+
+- **What are the advantages?**
+  - Promotes code reusability, supports integration of legacy or third-party code, and adheres to the Open/Closed Principle.
+
+- **How would you adapt another animal (e.g., Turkey) to the Bird interface?**
+  - Implement a new adapter class (e.g., `TurkeyAdapter`) that implements the `Bird` interface and delegates calls to the `Turkey` methods.
+
+---
+
+## References
+
+- [Design Patterns: Adapter](https://refactoring.guru/design-patterns/adapter)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/AdapterDesignPattern)
