@@ -263,3 +263,39 @@ A real-world example is building a meal at a fast-food restaurant. You can choos
 
 - [Design Patterns: Builder](https://refactoring.guru/design-patterns/builder)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/BuilderDesignPattern)
+
+# Facade Design Pattern: Employee System Example
+
+This module demonstrates the **Facade** design pattern, a structural pattern commonly discussed in interviews. The pattern provides a simplified interface to a complex subsystem, making it easier for clients to interact with the system.
+
+## Interview-Relevant Concepts
+
+- **Simplified interface:** Hides the complexities of the subsystem by exposing a single entry point.
+- **Loose coupling:** Reduces dependencies between client code and subsystem classes.
+- **Encapsulation:** Keeps subsystem details hidden from the client.
+
+## Use Case: Employee System
+
+Suppose you have an `EmployeeDAO` class that handles various employee operations (insert, update, fetch by ID or name). The Facade pattern introduces an `EmployeeFacade` class that exposes high-level methods for these operations, so client code interacts only with the facade, not the underlying DAO.
+
+## Real-World Example
+
+A real-world example is a hotel concierge. Instead of interacting with multiple hotel departments (housekeeping, room service, maintenance), guests contact the concierge, who handles all requests on their behalf, simplifying the process.
+
+## Common Interview Questions
+
+- **What is the Facade pattern?**
+  - It provides a unified interface to a set of interfaces in a subsystem, making the subsystem easier to use.
+
+- **What are the advantages?**
+  - Simplifies client usage, promotes loose coupling, and improves code maintainability.
+
+- **How would you add new operations to the system?**
+  - Add new methods to the facade that internally delegate to the appropriate subsystem classes.
+
+---
+
+## References
+
+- [Design Patterns: Facade](https://refactoring.guru/design-patterns/facade)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/FacadeDesignPattern)
