@@ -227,3 +227,39 @@ A common real-world example is using different types of power plugs and sockets.
 
 - [Design Patterns: Adapter](https://refactoring.guru/design-patterns/adapter)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/AdapterDesignPattern)
+
+# Builder Design Pattern: Student Creation Example
+
+This module demonstrates the **Builder** design pattern, a creational pattern frequently discussed in interviews. The pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+## Interview-Relevant Concepts
+
+- **Step-by-step construction:** Builds complex objects step by step.
+- **Immutability:** Final object can be made immutable after construction.
+- **Separation of concerns:** Construction logic is separated from the object itself.
+
+## Use Case: Student Creation System
+
+Suppose you want to create `Student` objects with many optional and mandatory fields (e.g., name, age, parents' names, subjects). The Builder pattern lets you construct different types of students (e.g., CS, Mechanical) with varying attributes, without a telescoping constructor.
+
+## Real-World Example
+
+A real-world example is building a meal at a fast-food restaurant. You can choose different components (burger, drink, fries) in any order, and the builder assembles the final meal object.
+
+## Common Interview Questions
+
+- **What is the Builder pattern?**
+  - It separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+- **What are the advantages?**
+  - Avoids telescoping constructors, improves code readability, and supports the creation of immutable objects.
+
+- **How would you add a new student type (e.g., ElectricalStudent)?**
+  - Implement a new builder subclass for `ElectricalStudent` and define its specific construction steps.
+
+---
+
+## References
+
+- [Design Patterns: Builder](https://refactoring.guru/design-patterns/builder)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/BuilderDesignPattern)
