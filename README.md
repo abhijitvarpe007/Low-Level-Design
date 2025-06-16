@@ -299,3 +299,39 @@ A real-world example is a hotel concierge. Instead of interacting with multiple 
 
 - [Design Patterns: Facade](https://refactoring.guru/design-patterns/facade)
 - [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/FacadeDesignPattern)
+
+# Bridge Design Pattern: Shape and Color Example
+
+This module demonstrates the **Bridge** design pattern, a structural pattern often discussed in interviews. The pattern decouples an abstraction from its implementation, allowing both to vary independently.
+
+## Interview-Relevant Concepts
+
+- **Decoupling abstraction and implementation:** Enables independent development and extension of both.
+- **Composition over inheritance:** Uses composition to combine abstraction and implementation.
+- **Extensibility:** New abstractions and implementations can be added without modifying existing code.
+
+## Use Case: Shape and Color System
+
+Suppose you want to create different shapes (e.g., Circle, Square) that can be filled with different colors (e.g., Red, Blue). The Bridge pattern lets you vary both shapes and colors independently, avoiding a combinatorial explosion of subclasses.
+
+## Real-World Example
+
+A real-world example is a remote control (abstraction) that can operate different devices (implementations) like TVs or projectors. The remote and the device can evolve separately.
+
+## Common Interview Questions
+
+- **What is the Bridge pattern?**
+  - It separates abstraction from implementation so that both can be changed independently.
+
+- **What are the advantages?**
+  - Reduces code duplication, increases flexibility, and supports open/closed principle.
+
+- **How would you add a new color or shape?**
+  - Implement a new `Color` or `Shape` subclass without changing existing code.
+
+---
+
+## References
+
+- [Design Patterns: Bridge](https://refactoring.guru/design-patterns/bridge)
+- [Source Code](https://github.com/abhijitvarpe007/Low-Level-Design/tree/main/src/main/java/BridgeDesignPattern)
